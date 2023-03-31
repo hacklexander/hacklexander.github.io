@@ -63,6 +63,21 @@ Like the [Medium](https://medium.com/) component.
 </div>
 {% endhighlight %}
 
+{% highlight html %}
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="{{ site.url }}/{{ site.arch }}" alt="Alt Text">
+        <figcaption class="caption">Photo by John Doe</figcaption>
+    </div>
+</div>
+{% endhighlight %}
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="{{ site.url }}/{{ site.arch }}" alt="Alt Text">
+        <figcaption class="caption">Photo by John Doe</figcaption>
+    </div>
+</div>
+
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">

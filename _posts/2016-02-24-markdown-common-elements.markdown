@@ -123,7 +123,16 @@ Markdown can also contain images. I'll need to add something here sometime.
 ![Markdowm Image][/image/url]
 {% endhighlight %}
 
-![Markdowm Image][5]
+
+{% highlight raw %}
+![Markdowm Image][{{site.url}}/{{site.arch}}]
+{% endhighlight %}
+
+{% highlight raw %}
+![Markdowm Image][7]
+{% endhighlight %}
+
+![Markdowm Image][6]
 
 *Figure Caption*?
 
@@ -201,3 +210,6 @@ $(window).scroll(function() {
 [3]: https://daringfireball.net/projects/markdown/basics
 [4]: https://daringfireball.net/projects/markdown/syntax
 [5]: https://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
+
+[6]: {{site.url}}/{{site.arch}}
+[7]: https://www.freecodecamp.org/news/content/images/2022/01/VirtualBox_archlinux-2022.01.01-x86_64_12_01_2022_18_50_39.png
