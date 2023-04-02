@@ -75,34 +75,34 @@ En este caso vamos a crear nuestra distro en una maquina virtual con la herramie
 Entramos en VMWare y creamos una nueva máquina virtual:
 
 
->![Primera ventana]({{site.url}}/{{site.arch}}01.png)
+>![Primera ventana]({{site.url}}/{{site.install}}01.png)
 
 Cargamos la ISO de Arch Linux:
 
 
->![carga de imagen]({{site.url}}/{{site.arch}}02.png)
+>![carga de imagen]({{site.url}}/{{site.install}}02.png)
 
 Seleccionamos Linux en la parte de sistema operativo:
 
 
->![linux]({{site.url}}/{{site.arch}}03.png)
+>![linux]({{site.url}}/{{site.install}}03.png)
 
 Asignamos el nombre con el que queremos identificar nuestra maquina virtual:
 
 
->![Nuevo nombre]({{site.url}}/{{site.arch}}04.png)
+>![Nuevo nombre]({{site.url}}/{{site.install}}04.png)
 
 Asignamos un tamaño máximo de disco de 80G en mi caso (Puedes elegir un tamaño a tu gusto), con la opción **Store virtual disk as a single file**:
 
->![Disco]({{site.url}}/{{site.arch}}05.png)
+>![Disco]({{site.url}}/{{site.install}}05.png)
 
 Asignamos una cantidad de memoria RAM a criterio de cada uno, en mi caso elegi 4GB :
 
->![Configuracion]({{site.url}}/{{site.arch}}06.png)
+>![Configuracion]({{site.url}}/{{site.install}}06.png)
 
 Finalizamos la creación de la máquina virtual, arrancamos y verificamos que todo funciona:
 
->![Final de creacion]({{site.url}}/{{site.arch}}07.png)
+>![Final de creacion]({{site.url}}/{{site.install}}07.png)
 
 ---
 
