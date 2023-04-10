@@ -131,6 +131,10 @@ cp -r home/* $HOME
 
 ---
 
+| <img src="{{site.url}}/{{site.bspwm}}calendar.png" alt="calendar" align="center" width="200px"> | <img src="{{site.url}}/{{site.bspwm}}rofi.png" alt="Rofi" align="center" width="200px"> | <img src="{{site.url}}/{{site.bspwm}}dashboard.png" alt="Dashboard" align="center" width="200px"> |
+
+<img src="{{site.url}}/{{site.bspwm}}primer-parte.gif" alt="Dashboard" align="center" width="200px"><img src="{{site.url}}/{{site.bspwm}}segunda-parte.gif" alt="Dashboard" align="center" width="200px">
+
 
 
 # ----------------------------------------------------------------------------
