@@ -1,7 +1,7 @@
 ---
 title: "Instalacion/configuracion de bspwm"
 layout: post
-date: 2023-04-02 21:00
+date: 2023-04-10 21:00
 image: /assets/arch/bspwm/bspwm.jpg
 headerImage: true
 star: true
