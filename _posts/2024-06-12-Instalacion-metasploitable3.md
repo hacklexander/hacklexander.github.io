@@ -44,14 +44,14 @@ En el repositorio oficial no ofrece varias formas para poder instalar y configur
 1. entramos al siguiente [Link](https://app.vagrantup.com/rapid7/)
 
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-07)png']
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-07.png']
 
 ---
 
 2. Ahora lo que debemos hacer es descargar los archivos en el programa donde la queramos configurar.
 
 
-|![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-08)png'] | ![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-09)png']|
+|![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-08.png'] | ![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-09.png']|
 | ------------------------------- | ------------------------------- |
 
 ![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-10.png]]
