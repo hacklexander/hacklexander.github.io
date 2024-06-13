@@ -6,9 +6,7 @@ bio: Pentester
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
-install: assets/arch/install-arch/
-kitty: assets/arch/kitty/
-bspwm: assets/arch/bspwm/
+anexos: assets/images/
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.

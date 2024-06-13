@@ -6,6 +6,7 @@ group :jekyll_plugins do
     gem 'jekyll-gist'
     gem 'jekyll-seo-tag'
     gem 'jemoji'
+    gem 'json'
 end
 
 gem "webrick" 

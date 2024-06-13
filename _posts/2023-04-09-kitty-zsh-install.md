@@ -2,7 +2,7 @@
 title: "Instalacion/configuracion de kitty & zsh"
 layout: post
 date: 2023-04-09 21:00
-image: /assets/arch/kitty/kitty.jpg
+image: /assets/images/kitty-zsh/kitty.jpg
 headerImage: true
 star: true
 tag:
@@ -133,7 +133,7 @@ ln -s -f ~/.zshrc /root/.zshrc
 ```
 para comprobar debemos escribir **`ls -la`**
 
-![link simbolico]({{site.url}}/{{site.kitty}}link-simbolico-zshrc.png)
+![link simbolico]({{site.url}}/{{site.anexos}}/kitty-zsh/link-simbolico-zshrc.png)
 
 Ya con esto cuando nos convirtamos en usuario root podremos ver la misma configuracion.
 

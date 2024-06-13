@@ -2,7 +2,7 @@
 title: "Instalacion/configuracion de bspwm"
 layout: post
 date: 2023-04-09 23:00
-image: /assets/arch/bspwm/bspwm.jpg
+image: /assets/images/instalacion-bspwm/bspwm.jpg
 headerImage: true
 star: true
 tag:
@@ -37,7 +37,7 @@ mkdir ~/.config/bspwm
 sudo cp -r /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm
 cat ~/.config/bspwm/bspwmrc
 ```
-![gdm slect]({{site.url}}/{{site.bspwm}}bspwmrc.png)
+![gdm slect]({{site.url}}/{{site.anexos}}/instalacion-bspwm/bspwmrc.png)
 
 Tambien debemos hacer esto para el archivo sxhkd.
 
@@ -46,14 +46,14 @@ mkdir ~/.config/sxhkd
 sudo cp -r /usr/share/doc/sxhkd/examples/background_shell/sxhkdrc ~/.config/sxhkd
 cat ~/.config/sxhkd/sxhkdrc
 ```
-![gdm slect]({{site.url}}/{{site.bspwm}}sxhkdrc.png)
+![gdm slect]({{site.url}}/{{site.anexos}}/instalacion-bspwm/sxhkdrc.png)
 
 --- 
 
 
 Lo que haremos ahora, es reiniciar el equipo y sleccionar bspwm:
 
-![gdm slect]({{site.url}}/{{site.bspwm}}gdm-index.png)
+![gdm slect]({{site.url}}/{{site.anexos}}/instalacion-bspwm/gdm-index.png)
 
 Despues de autenticarnos nos aparecera una pantalla totalmente en negro, pero no te preocupes. En este momento es donde empieza lo bueno!
 Empezaremos a instalar todas las herramientas que necesitaremos para nuestro arch y se vea genial!.
@@ -131,9 +131,9 @@ cp -r home/* $HOME
 
 ---
 
-| <img src="{{site.url}}/{{site.bspwm}}calendar.png" alt="calendar" align="center" width="200px"> | <img src="{{site.url}}/{{site.bspwm}}rofi.png" alt="Rofi" align="center" width="200px"> | <img src="{{site.url}}/{{site.bspwm}}dashboard.png" alt="Dashboard" align="center" width="200px"> |
+| <img src="{{site.url}}/{{site.anexos}}/instalacion-bspwm/calendar.png" alt="calendar" align="center" width="200px"> | <img src="{{site.url}}/{{site.anexos}}/instalacion-bspwm/rofi.png" alt="Rofi" align="center" width="200px"> | <img src="{{site.url}}/{{site.anexos}}/instalacion-bspwm/dashboard.png" alt="Dashboard" align="center" width="200px"> |
 
-<img src="{{site.url}}/{{site.bspwm}}primer-parte.gif" alt="Dashboard" align="center" width="200px"><img src="{{site.url}}/{{site.bspwm}}segunda-parte.gif" alt="Dashboard" align="center" width="200px">
+<img src="{{site.url}}/{{site.anexos}}/instalacion-bspwm/primer-parte.gif" alt="Dashboard" align="center" width="200px"><img src="{{site.url}}/{{site.anexos}}/instalacion-bspwm/segunda-parte.gif" alt="Dashboard" align="center" width="200px">
 
 
 

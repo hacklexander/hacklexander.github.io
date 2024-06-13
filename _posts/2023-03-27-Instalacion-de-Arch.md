@@ -2,7 +2,7 @@
 title: "Instalacion de Arch"
 layout: post
 date: 2023-04-01 21:00
-image: /assets/arch/install-arch/install-guide.jpg
+image: /assets/images/instalacion-arch/install-guide.jpg
 headerImage: true
 star: true
 tag:
@@ -23,7 +23,7 @@ A continuacion muestro la terminal de comandos que nos sale.
 ![first][1]
 
 <figcaption class="caption">Primera vista</figcaption>
-[1]: {{site.url}}/{{site.install}}08.png
+[1]: {{site.url}}/{{site.anexos}}/instalacion-arch/08.png
 
 ---
 
@@ -37,7 +37,7 @@ El comando que debemos escribir es:
 root@archiso ~# loadkeys es
 ```
 
-![loadkeys]({{site.url}}/{{site.install}}loadkeys.png)
+![loadkeys]({{site.url}}/{{site.anexos}}/instalacion-arch/loadkeys.png)
 
 ---
 
@@ -105,49 +105,49 @@ wpa_supplicant -B -D nl80211,wext -c $HOME/wpa_supplicant.conf -i interface-de-r
 -   Despues de esto tenemos que empezar a crear nuestras particiones para la instalacion, para empezar tendremos que usar una herramienta la cual es **cfdisk**
     Seleccionamos la opción (**dos**):
 
-![cfdisk index]({{site.url}}/{{site.install}}09.png)
+![cfdisk index]({{site.url}}/{{site.anexos}}/instalacion-arch/09.png)
 
 ---
 
 -   Comenzaremos creando una nueva partición primaria de 512M:
 
-![cfdisk]({{site.url}}/{{site.install}}11.png)
+![cfdisk]({{site.url}}/{{site.anexos}}/instalacion-arch/11.png)
 
 ---
 
 -   Podremos escoger entre primaria o extendida en el siguiente punto:
 
-![cfdisk]({{site.url}}/{{site.install}}12.png)
+![cfdisk]({{site.url}}/{{site.anexos}}/instalacion-arch/12.png)
 
 ---
 
 -   Sì hicimos todos los pasos correctamente, deberíamos de ver la siguiente estructuración de particiones:
 
-![cfdisk]({{site.url}}/{{site.install}}13.png)
+![cfdisk]({{site.url}}/{{site.anexos}}/instalacion-arch/13.png)
 
 ---
 
 -   En este punto vamos a crear una nueva partición primaria, esta vez de 75G:
 
-![cfdisk]({{site.url}}/{{site.install}}14.png)
+![cfdisk]({{site.url}}/{{site.anexos}}/instalacion-arch/14.png)
 
 ---
 
 -   Por último, crearemos una última partición con el espacio que nos queda, esta sera la SWAP:
 
-![cfdisk]({{site.url}}/{{site.install}}15.png)
+![cfdisk]({{site.url}}/{{site.anexos}}/instalacion-arch/15.png)
 
 ---
 
 -   Ya en este punto nos posicionaremos sobre /dev/sda3, nos iremos a la opción Type y seleccionaremos la opción Linux swap / Solaris:
 
-![cfdisk]({{site.url}}/{{site.install}}16.png)
+![cfdisk]({{site.url}}/{{site.anexos}}/instalacion-arch/16.png)
 
 ---
 
 -   Nos debería quedar así:
 
-![cfdisk]({{site.url}}/{{site.install}}17.png)
+![cfdisk]({{site.url}}/{{site.anexos}}/instalacion-arch/17.png)
 
 ---
 
@@ -155,7 +155,7 @@ wpa_supplicant -B -D nl80211,wext -c $HOME/wpa_supplicant.conf -i interface-de-r
 
 > `root@archiso ~# lsblk`
 
-![lista de particiones]({{site.url}}/{{site.install}}18.png)
+![lista de particiones]({{site.url}}/{{site.anexos}}/instalacion-arch/18.png)
 
 ---
 
@@ -171,7 +171,7 @@ swapon
 
 ```
 
-![formateo de particiones]({{site.url}}/{{site.install}}19.png)
+![formateo de particiones]({{site.url}}/{{site.anexos}}/instalacion-arch/19.png)
 
 Con estos comandos lo que hicimos fue formatear cada particion que creamos anteriormente, la particion de 512MB quedo con formato **_fat32_** que sera para el /boot, la particion **_sda2_** quedo en formato **_ext4_** que sera la del sistema y la ultima quedo con formato **_swap_** y la activamos con el ultimo comando que es `swapon`
 
@@ -191,59 +191,59 @@ pacstrap /mnt linux linux-firmware networkmanager grub wpa_supplican base base-d
 
 > Con este comando en **_/mnt_** le estamos diciendo que queremos instalar todos estos paquetes en este directorio.
 
-|<img src="{{site.url}}/{{site.install}}20.png" alt="Montura de particiones" align="center" width="400px">|<img src="{{site.url}}/{{site.install}}21.png" alt="instalaciones de paquetes" align="center" width="400px">|
+|<img src="{{site.url}}/{{site.anexos}}/instalacion-arch/20.png" alt="Montura de particiones" align="center" width="400px">|<img src="{{site.url}}/{{site.anexos}}/instalacion-arch/21.png" alt="instalaciones de paquetes" align="center" width="400px">|
 
 ---
 
 -   Procedemos a crear los usuarios dentro de nuestro sistema:
 
-![user add]({{site.url}}/{{site.install}}useradd.png)
+![user add]({{site.url}}/{{site.anexos}}/instalacion-arch/useradd.png)
 
 -   Procedemos a instalar sudo para definir una regla:
 
-![sudo install]({{site.url}}/{{site.install}}sudo-instal.png)
+![sudo install]({{site.url}}/{{site.anexos}}/instalacion-arch/sudo-instal.png)
 
 -   Es recomendable instalar nano y vim:
 
-![nano vim install]({{site.url}}/{{site.install}}nano-vim.png)
+![nano vim install]({{site.url}}/{{site.anexos}}/instalacion-arch/nano-vim.png)
 
 -   En el /etc/sudoers, descomentaremos la siguiente línea:
 
-![sudoers edit]({{site.url}}/{{site.install}}sudoers.png)
+![sudoers edit]({{site.url}}/{{site.anexos}}/sudoers.png)
 
 -   De esta forma, nos pedirá contraseña siempre que tratemos de ejecutar un comando privilegiado partiendo de nuestro usuario principal.
     Nos abriremos el archivo /etc/locale.gen y descomentaremos por un lado la siguiente línea:
 
-![locale edit]({{site.url}}/{{site.install}}locale-edit.png)
+![locale edit]({{site.url}}/{{site.anexos}}/instalacion-arch/locale-edit.png)
 
 -   Adicional a esto, tendremos que editar el archivo **/etc/locale.conf** y nos debe quedar una salida como la siguiente:
 
-![locale edit conf]({{site.url}}/{{site.install}}locale-conf.png)
+![locale edit conf]({{site.url}}/{{site.anexos}}/instalacion-arch/locale-conf.png)
 
 -   Una vez hecho, ejecutaremos el comando locale-gen.
     Para quedarnos con el teclado en Español, vamos a crear un archivo en /etc/vconsole.conf con el siguiente contenido:
 
-![locale-gen]({{site.url}}/{{site.install}}locale-gen.png)
+![locale-gen]({{site.url}}/{{site.anexos}}/instalacion-arch/locale-gen.png)
 
 ---
 
 -   En este punto, toca montar el bootloader (GRUB):
 
-![grub install]({{site.url}}/{{site.install}}grub-install.png)
+![grub install]({{site.url}}/{{site.anexos}}/instalacion-arch/grub-install.png)
 
 -   Creamos el archivo de configuración de GRUB:
 
-![grub config]({{site.url}}/{{site.install}}grub-config.png)
+![grub config]({{site.url}}/{{site.anexos}}/instalacion-arch/grub-config.png)
 
 ---
 
 -   Asignamos un nombre a la máquina:
 
-![hostname]({{site.url}}/{{site.install}}hostname.png)
+![hostname]({{site.url}}/{{site.anexos}}/instalacion-arch/hostname.png)
 
 -   Definimos el archivo /etc/hosts:
 
-![hosts]({{site.url}}/{{site.install}}hosts.png)
+![hosts]({{site.url}}/{{site.anexos}}/instalacion-arch/hosts.png)
 
 ---
 
@@ -253,27 +253,27 @@ pacstrap /mnt linux linux-firmware networkmanager grub wpa_supplican base base-d
 
 -   Ahora con escribir el comando **neofetch**, deberíamos ver lo siguiente:
 
-![neofetch]({{site.url}}/{{site.install}}neofetch.png)
+![neofetch]({{site.url}}/{{site.anexos}}/instalacion-arch/neofetch.png)
 
 ---
 
 -   Llegó el momento de reiniciar el sistema operativo, hacemos un reboot now desde consola y vemos si el GRUB nos carga correctamente. En nuestro caso, vemos que carga perfectamente:
 
-![inicio-grub]({{site.url}}/{{site.install}}inicio-grub.png)
+![inicio-grub]({{site.url}}/{{site.anexos}}/instalacion-arch/inicio-grub.png)
 
 ---
 
 -   Deberíamos poder ingresar a nuestra consola, pero comprobaremos que no tenemos internet:
 
-![first-auth]({{site.url}}/{{site.install}}first-auth.png)
+![first-auth]({{site.url}}/{{site.anexos}}/instalacion-arch/first-auth.png)
 
 -   Ejecutamos los siguientes 2 comandos:
 
-![networkmanager]({{site.url}}/{{site.install}}networkmanager.png)
+![networkmanager]({{site.url}}/{{site.anexos}}/instalacion-arch/networkmanager.png)
 
 -   Ya en este punto, deberíamos volver a tener internet, incluso cuando reiniciemos la máquina:
 
-![ping-full]({{site.url}}/{{site.install}}ping-full.png)
+![ping-full]({{site.url}}/{{site.anexos}}/instalacion-arch/ping-full.png)
 
 -   También habilitaremos el siguiente servicio de wpa_supplicant con el siguiente comando
 
@@ -287,15 +287,15 @@ pacstrap /mnt linux linux-firmware networkmanager grub wpa_supplican base base-d
 
 -   Clonamos el siguiente repositorio:
 
-![gitclone-paru]({{site.url}}/{{site.install}}gitclone-paru.png)
+![gitclone-paru]({{site.url}}/{{site.anexos}}/instalacion-arch/gitclone-paru.png)
 
 -   Para proceder con la instalación, ejecutamos el siguiente comando:
 
-![makepkg-paru]({{site.url}}/{{site.install}}makepkg-paru.png)
+![makepkg-paru]({{site.url}}/{{site.anexos}}/instalacion-arch/makepkg-paru.png)
 
 -   Ahora instalaremos todos los repositorios de **blackarch**, estos contienen todas las herramientas de hacking que usaremos mas adelante. nos pocicionamos en la terminal de comando y digitaremos los siguientes comandos:
 
-![blackarch install]({{site.url}}/{{site.install}}blackarch.png)
+![blackarch install]({{site.url}}/{{site.anexos}}/instalacion-arch/blackarch.png)
 
 Por ultimo isntalaremos un **dispay manager** en este caso sera el gnome, me parece muy bonito. los comandos que tenemos que usar son:
 
@@ -303,7 +303,7 @@ Por ultimo isntalaremos un **dispay manager** en este caso sera el gnome, me par
 sudo pacman -S gdm
 ```
 
-![gdm install]({{site.url}}/{{site.install}}gdm-install.png)
+![gdm install]({{site.url}}/{{site.anexos}}/instalacion-arch/gdm-install.png)
 
 Ahora los comandos para habilitarlo y ejecutarlo, son los siguientes:
 
@@ -314,7 +314,7 @@ sudo systemctl start gdm.service
 
 Tendremos por fin una interface grafica para poder autenticarnos e iniciar en nuestro arch.
 
-![gdm start]({{site.url}}/{{site.install}}gdm-start.png)
+![gdm start]({{site.url}}/{{site.anexos}}/instalacion-arch/gdm-start.png)
 
 ---
 
