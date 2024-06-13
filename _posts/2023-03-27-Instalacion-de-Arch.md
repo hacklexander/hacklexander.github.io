@@ -209,7 +209,7 @@ pacstrap /mnt linux linux-firmware networkmanager grub wpa_supplican base base-d
 
 -   En el /etc/sudoers, descomentaremos la siguiente línea:
 
-![sudoers edit]({{site.url}}/{{site.anexos}}/sudoers.png)
+![sudoers edit]({{site.url}}/{{site.anexos}}/instalacion-arch/sudoers.png)
 
 -   De esta forma, nos pedirá contraseña siempre que tratemos de ejecutar un comando privilegiado partiendo de nuestro usuario principal.
     Nos abriremos el archivo /etc/locale.gen y descomentaremos por un lado la siguiente línea:

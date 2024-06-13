@@ -16,7 +16,7 @@ description: Instalación de herramienta de entorno virtual de python
 [Installing on Linux — conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) 
 
 
-![[{{site.url}}/{{site.anexos}}/miniconda/logo.svg]]
+![]({{site.url}}/{{site.anexos}}/miniconda/logo.svg)
 
 
 Miniconda es un instalador mínimos proporcionado por *Anaconda*. Es una versión reducida de Anaconda que incluye solo Conda, Python y algunos paquetes esenciales.
