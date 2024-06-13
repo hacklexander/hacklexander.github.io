@@ -44,17 +44,17 @@ En el repositorio oficial no ofrece varias formas para poder instalar y configur
 1. entramos al siguiente [Link](https://app.vagrantup.com/rapid7/)
 
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (7).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-07)png']
 
 ---
 
 2. Ahora lo que debemos hacer es descargar los archivos en el programa donde la queramos configurar.
 
 
-|![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (8).png']] | ![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (9).png']]|
+|![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-08)png'] | ![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-09)png']|
 | ------------------------------- | ------------------------------- |
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (10).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-10.png]]
 
 ---
 
@@ -62,17 +62,17 @@ En el repositorio oficial no ofrece varias formas para poder instalar y configur
 
 
 
-| ![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (11).png']] | ![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (12).png']] |
+| ![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-11.png]] | ![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-12.png]] |
 | --------------------------------- | ----------------------------------|
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (13).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-13.png]]
 
 
 ---
 
 4. Ahora nos quedaron 2 carpetas con el mismo nombre del archivo.
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (14).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-14.png]]
 
 
 ---
@@ -81,7 +81,7 @@ En el repositorio oficial no ofrece varias formas para poder instalar y configur
 
 
 
-| ![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (15).png']] | ![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (16).png']] |
+| ![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-15.png]] | ![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-16.png]] |
 | --------------------------------- | --------------------------------- |
 
 ---
@@ -89,14 +89,14 @@ En el repositorio oficial no ofrece varias formas para poder instalar y configur
 6. Descomprimimos los archivos renombrados de ambas carpetas. 
 
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (17).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-17.png]]
 
 ---
 
 7. Nos quedaran los siguientes archivos que podremos utilizar para agregarlos al programa de virtualización que seleccionamos para configurar Metasploitable3 
 
 
-| ![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (20).png']] | ![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (19).png']] |
+| ![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-20.png]] | ![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-19.png]] |
 | --------------------------------- | --------------------------------- |
 
 
@@ -106,7 +106,7 @@ En el repositorio oficial no ofrece varias formas para poder instalar y configur
 8. Ahora lo que debemos hacer es agregarlas a nuestro programa de virtualización con las carpetas renombradas preferiblemente para mayor comodidad.
 
 
-| ![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (21).png']] | ![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (22).png']] |
+| ![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-21.png]] | ![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-22.png]] |
 | ----------------------------------|---------------------------------- |
 
 ---
@@ -114,7 +114,7 @@ En el repositorio oficial no ofrece varias formas para poder instalar y configur
 9. En este punto ya tenemos las máquinas listas para usar.
 
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (23).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-23.png]]
 
 
 --- 
@@ -128,7 +128,7 @@ user -> vagrant
 password -> vagrant
 
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (24).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-24.png]]
 
 
 ---
@@ -142,7 +142,7 @@ sudo iptables -F
 ```
 
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (25).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-25.png]]
 
 ---
 
@@ -150,33 +150,33 @@ sudo iptables -F
 
 1. Iniciamos la maquina para configurarla. 
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (26).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-26.png]]
 
 
 password -> vagrant
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (27).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-27.png]]
 
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (28).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-28.png]]
 
 ---
 
 2. Lo que sigue es entrar en los ajustes de red
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (30).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-30.png]]
 
 ---
 
 3. Entramos ahora a los ajustes avanzados.
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (31).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-31.png]]
 
 ---
 
 4. Activamos todas las opciones que nos muestra.
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (32).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-32.png]]
 
 ----
 
@@ -189,12 +189,12 @@ password -> vagrant
 Teniendo las dos maquinas funcionando simultáneamente comprobamos que IP tienen asignada cada maquina.
 
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (33).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-33.png]]
 
 ---
 
 Ahora procedemos a hacer un ping desde alguna de las maquinas para comprobar si se están comunicando.
 
-![[{{site.url}}/{{site.anexos}}/metasploitable3/'Captura de pantalla (34).png']]
+![[{{site.url}}/{{site.anexos}}/metasploitable3/captura-34.png]]
 
 
