@@ -1,21 +1,19 @@
 ---
-title: "Metodologías de hacking ético"
+title: "Metodologías de Hacking Ético"
 layout: post
-date: 2024-11-06 21:00
+date: 2024-06-13 21:00
 star: true
 tag:
     - Hacking 
-    - Ético 
-    - Archlinux
+    - Metodologías 
 category: blog
 author: hacklexander
-description: Metodologías de hacking ético
+description: Metodologías que se utilizan para realizar un auditoria de seguridad informática 
 ---
 
 
-
-
 ### Importancia de las metodologías
+
 
 Las metodologías nos facilitan la realización de un conjunto de actividades en un orden determinado y estableciendo una *prioridad* adecuada para intentar *garantizar el éxito y alcanzar un objetivo final.* 
 
@@ -26,7 +24,11 @@ Las metodologías nos facilitan la realización de un conjunto de actividades en
 Con lo cual una metodología es importante, siempre y cuando nos sirva para tener en nuestra cabeza una estructura del ejercicio, una estructura de que fases vamos a seguir, que herramientas vamos a utilizar, en que orden vamos a utilizarlas, que vamos a priorizar cuando salga unos resultados determinados y todo este tipo de cosas. 
 
 
+---
+
+
 ### Metodologías principales
+
 
 - OSSTMM *(Open-Source Security Testing Methodology Manual)*
 		[PDF](https://www.isecom.org/OSSTMM.3.pdf)   - *Esta es una de las mas populares.*
@@ -39,32 +41,52 @@ Con lo cual una metodología es importante, siempre y cuando nos sirva para tene
 - OTP *(OWASP Testing Project)*
 
 
-### Metodologías del curso 
+---
+
+
+## Metodologías que veremos en los siguientes post 
 
 
 - #### Definición del alcance del test de penetración (teórico)
+
 	Se hace con el cliente o la organización a la que le vayamos hacer la auditoria.
-	
+
+
 - #### Recopilación de información
-	la vamos a dividir en 3 fases de recopilación de información. 
-	- pasiva
-	- semi-pasiva
-	- activa
+
+    la vamos a dividir en 3 fases de recopilación de información.
+
+
+  - [Pasiva]({{site.url}}/Recopilacion-datos-pasiva/)
+
+  - [semi-pasiva]({{site.url}}/Recopilacion-datos-semipasiva/)
+
+  - [activa]({{site.url}}/Recopilacion-datos-activa/)
+
+
 - #### Identificación y análisis de vulnerabilidades
 
+
 - #### Explotación de las vulnerabilidades
-	la vamos a dividir en 3 fases de explotación .
-	- En Host
-	- En Aplicaciones Web
-	- En Redes
+
+    la vamos a dividir en 3 fases de explotación.
+
+    - En Host
+
+    - En Aplicaciones Web
+
+    - En Redes
 
 - #### Post-explotación
 
 - #### Elaboración de un documento de reporte (teórico)
 
 
+---
 
-### Definición del alcance del hacking ético
+
+## Definición del alcance del hacking ético
+
 
 Esto lo realizamos con el cliente o con la organización a la que le vayamos hacer la auditoria, se discutirán temas relacionados con las tareas que se llevara acabo, los roles y responsabilidades de ambos.
 
@@ -75,8 +97,11 @@ Análisis de las políticas de la organización que definen el uso que los usuar
 Procedimiento en el caso de que se localice una intrusión por un tercero.
 
 
+---
 
-#### Ejemplos de informes de Hacking Ético y auditorías de seguridad
+
+## Ejemplos de informes de Hacking Ético y auditorías de seguridad
+
 
 Una de las preguntas más frecuentes es -> *¿Cómo es un informe real de Hacking Ético o auditoría de seguridad?*
 
@@ -91,7 +116,6 @@ El segundo recurso se corresponde a diferentes plantillas que podemos utilizar p
 
 - [Recurso 1](https://pentestreports.com/templates/)
 - [Recurso 2](https://github.com/hmaverickadams/TCM-Security-Sample-Pentest-Report)
-
 
 
 
