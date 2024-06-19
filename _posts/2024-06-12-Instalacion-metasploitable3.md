@@ -16,18 +16,18 @@ description: Instalación de la herramienta para hacer pruebas de pentesting
 [Metasploitable3 - Github](https://github.com/rapid7/metasploitable3)
 
 
-Metasploitable3 es una máquina virtual (VM) creada desde cero con *una gran cantidad de vulnerabilidades de seguirdad.* Su propósito principal es servir como objetivo para probar exploits con Metasploit. En otras palabras, es un entorno de laboratorio diseñado específicamente para que los profesionales de la seguridad puedan simular ataques y evaluar cómo funcionan las herramientas de explotación. 
+Metasploitable3 es una máquina virtual (VM) creada desde cero con **una gran cantidad de vulnerabilidades de seguirdad.** Su propósito principal es servir como objetivo para probar exploits con Metasploit. En otras palabras, es un entorno de laboratorio diseñado específicamente para que los profesionales de la seguridad puedan simular ataques y evaluar cómo funcionan las herramientas de explotación. 
 
 ---
 
 ### Detalles clave
 
 
-- *Origen:* Metasploitable3 es un proyecto de *Rapid7*, una empresa de seguridad informática.
+- **Origen:** Metasploitable3 es un proyecto de **Rapid7**, una empresa de seguridad informática.
 
-- *Licencia:* Está disponible bajo la licencia de tipo *BSD*.
+- **Licencia:** Está disponible bajo la licencia de tipo **BSD**.
 
-- *Uso:* Los profesionales de la seguridad pueden utilizar Metasploitable3 para:
+- **Uso:** Los profesionales de la seguridad pueden utilizar Metasploitable3 para:
 
 	-> Probar exploits y vulnerabilidades. 
 
@@ -35,7 +35,7 @@ Metasploitable3 es una máquina virtual (VM) creada desde cero con *una gran can
 	
 	-> Realizar pruebas de penetración en un entorno controlado.
 
-- *Configuración:* Utiliza Vagrant y una imagen ligera de Ubuntu 14.04 para configurar y personalizar rápidamente Metasploitable3 para desarrollo o personalización.
+- **Configuración:** Utiliza Vagrant y una imagen ligera de Ubuntu 14.04 para configurar y personalizar rápidamente Metasploitable3 para desarrollo o personalización.
 
 
 ---
@@ -70,7 +70,7 @@ En el repositorio oficial no ofrece varias formas para poder instalar y configur
 ---
 
 
-3. Después de que las tengamos descargadas, lo que debemos hacer es renombras los archivos agregándole *.zip* sin borrar ninguna letra, solo le agregamos eso y procedemos a descomprimir ambos archivos.
+3. Después de que las tengamos descargadas, lo que debemos hacer es renombras los archivos agregándole **.zip** sin borrar ninguna letra, solo le agregamos eso y procedemos a descomprimir ambos archivos.
 
 
 |<img src="{{site.url}}/{{site.anexos}}/metasploitable3/captura-11.png" align="center" width="400px">|<img src="{{site.url}}/{{site.anexos}}/metasploitable3/captura-12.png" align="center" width="400px">|
@@ -145,8 +145,8 @@ En el repositorio oficial no ofrece varias formas para poder instalar y configur
 
 1. Procedemos a iniciar en Metasploitable3 de Ubuntu para empezar a configurarla. 
 
-user -> vagrant
-password -> vagrant
+**user** -> vagrant
+**password** -> vagrant
 
 
 ![]({{site.url}}/{{site.anexos}}/metasploitable3/captura-24.png)
@@ -179,7 +179,7 @@ sudo iptables -F
 ![]({{site.url}}/{{site.anexos}}/metasploitable3/captura-26.png)
 
 
-password -> vagrant
+**password** -> vagrant
 
 ![]({{site.url}}/{{site.anexos}}/metasploitable3/captura-27.png)
 

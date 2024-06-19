@@ -54,13 +54,13 @@ Así proporcionará información detallada sobre el dominio `example.com` incluy
 
 Para poder personalizar nuestras búsquedas y obtener información que necesitamos de manera mas eficiente. Tenemos las siguientes opciones:
 
-- *-H* -> Esta opción oculta el mensaje legal que normalmente se muestra al inicio de la salida de `whois`.
+- **-H** -> Esta opción oculta el mensaje legal que normalmente se muestra al inicio de la salida de `whois`.
 
-- *-i* -> Permite buscar por un campo específico, como el nombre del registrante o la dirección de correo electrónico.
+- **-i** -> Permite buscar por un campo específico, como el nombre del registrante o la dirección de correo electrónico.
 
-- *-p* -> Especifica el puerto a utilizar para la conexión con el servidor whois.
+- **-p** -> Especifica el puerto a utilizar para la conexión con el servidor whois.
 
-- *-h* -> Te permite especificar un servidor whois específico para la consulta.
+- **-h** -> Te permite especificar un servidor whois específico para la consulta.
 
 
 ---
@@ -84,11 +84,11 @@ Este comando devolverá información sobre a quién está asignada esa IP. inclu
 #### Mejores prácticas para el use de whois en Linux
 
 
-- *Privacidad:* Ten en cuenta que la información que buscas puede ser sensible. Utiliza whois de manera responsable.
+- **Privacidad:** Ten en cuenta que la información que buscas puede ser sensible. Utiliza whois de manera responsable.
 
-- *Automatización:* Para tareas repetitivas, considera escribir scripts que utilicen whois para automatizar consultas.
+- **Automatización:** Para tareas repetitivas, considera escribir scripts que utilicen whois para automatizar consultas.
 
-- *Actualización:* Asegúrate de que tu sistema y el paquete whois estén siempre actualizados para aprovechar las últimas mejoras y características de seguridad.
+- **Actualización:** Asegúrate de que tu sistema y el paquete whois estén siempre actualizados para aprovechar las últimas mejoras y características de seguridad.
 
 
 ---

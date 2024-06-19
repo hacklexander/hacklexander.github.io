@@ -1,13 +1,12 @@
 ---
-title: "Recopilación de datos activa"
+title: "Recopilación de datos Activa"
 layout: post
-date: 2024-06-15 21:00
+date: 2024-06-17 21:00
 star: true
 tag:
     - Hacking 
     - Metodologías 
     - Activa
-    - Archlinux
 category: blog
 author: hacklexander
 description: Recopilación de datos activa 

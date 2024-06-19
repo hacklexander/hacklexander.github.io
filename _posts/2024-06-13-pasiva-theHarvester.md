@@ -14,40 +14,36 @@ author: hacklexander
 description: Herramienta utilizada para la recopilación de datos pasiva  
 ---
 
-[GitHub - theHarvester](https://github.com/laramies/theHarvester)
-
-
-
-TheHarvester es una herramienta de seguridad informática utilizada para recopilar información en investigaciones de OSINT *(Inteligencia de Fuentes Abiertas)*. Fue desarrollada  por Christian Martorella y es ampliamente utilizada para obtener información de sitios web, bases de datos, directorios y redes sociales. 
+[TheHarvester](https://github.com/laramies/theHarvester) es una herramienta de seguridad informática utilizada para recopilar información en investigaciones de OSINT **(Inteligencia de Fuentes Abiertas)**. Fue desarrollada  por Christian Martorella y es ampliamente utilizada para obtener información de sitios web, bases de datos, directorios y redes sociales. 
 
 Durante la fase de reconocimiento en una evaluación de red team o penetration test, theHarvester realiza la recopilación de inteligencia de fuentes abiertas para ayudar a determinar el panorama de amenazas externas de un dominio. Algunos de los datos que puede extraer incluyen:
 
-- *Nombres*
-- *Correos electrónicos*
-- *IPs*
-- *Subdominios*
-- *URLs*
+- **Nombres**
+- **Correos electrónicos**
+- **IPs**
+- **Subdominios**
+- **URLs**
 
 
 La herramienta utiliza múltiples recursos públicos, como motores de búsqueda y bases de datos, para obtener esta información. 
 Algunos de los módulos pasivos que utiliza son:
 
 
-- *Anubis-DB ->* Base de datos de Anubis.
+- **Anubis-DB ->** Base de datos de Anubis.
 
-- *Baidu ->* Motor de búsqueda de Baidu.
+- **Baidu ->** Motor de búsqueda de Baidu.
 
-- *Bing ->* Motor de búsqueda de Microsoft.
+- **Bing ->** Motor de búsqueda de Microsoft.
 
-- *Censys ->* Motor de búsqueda que utiliza certificados para enumerar subdominios y recopilar correos electrónicos.
+- **Censys ->** Motor de búsqueda que utiliza certificados para enumerar subdominios y recopilar correos electrónicos.
 
-- *DuckDuckGo ->* Motor de búsqueda de DuckDuckGo.
+- **DuckDuckGo ->** Motor de búsqueda de DuckDuckGo.
 
-- *Github ->* Motor de búsqueda de código en GitHub.
+- **Github ->** Motor de búsqueda de código en GitHub.
 
-- *Hunter ->* Motor de búsqueda de correos electrónicos.
+- **Hunter ->** Motor de búsqueda de correos electrónicos.
 
-- *Intelx ->* Motor de búsqueda de Intelx.
+- **Intelx ->** Motor de búsqueda de Intelx.
 
 - y otros....
 
@@ -58,32 +54,32 @@ Algunos de los módulos pasivos que utiliza son:
 ### Ejemplos 
 
 
-1. Para buscar correos electrónicos relacionados con un dominio, por ejemplo *microsoft.com*. Utilizamos google como fuente de datos y limitando los resultados a 500:
+1. Para buscar correos electrónicos relacionados con un dominio, por ejemplo **microsoft.com**. Utilizamos google como fuente de datos y limitando los resultados a 500:
 
 ```bash
 > theharvester -d microsoft.com -l 500 -b google
 ```
 
 
-2. Para buscar claves PGP *(Pretty Good Privacy)* y relacionadas con el dominio *microsoft.com*: 
+2. Para buscar claves PGP **(Pretty Good Privacy)** y relacionadas con el dominio **microsoft.com**: 
 ```bash
 > theharvester -d microsoft.com -b pgp
 ```
 
 
-3. Para buscar nombres de empleados relacionados con el dominio *microsoft* utilizando *Linkedln* como fuente de datos y limitando los resultados a 200:
+3. Para buscar nombres de empleados relacionados con el dominio **microsoft** utilizando **Linkedln** como fuente de datos y limitando los resultados a 200:
 ```bash
 > theharvester -d microsoft -l 200 -b linkedin
 ```
 
 
-4. Para buscar correos electrónicos relacionados con el dominio *apple.com* utilizando *Google Custom Search Engine* (GoogleCSE) como fuente de datos, limitando los resultados a 500 y comenzando desde el resultado número 300:
+4. Para buscar correos electrónicos relacionados con el dominio **apple.com** utilizando **Google Custom Search Engine** (GoogleCSE) como fuente de datos, limitando los resultados a 500 y comenzando desde el resultado número 300:
 
 ```bash
 > theharvester -d apple.com -b googleCSE -l 500 -s 300
 ```
  
-> Para poder enviar todo el output a un fichero podemos usar el parámetro ***-f*** seguido del nombre del archivo donde lo queremos guardar.
+> Para poder enviar todo el output a un fichero podemos usar el parámetro **-f** seguido del nombre del archivo donde lo queremos guardar.
 
 
 ---
@@ -118,7 +114,7 @@ Estas serían las opciones mas sencillas para resolver el problema. También exi
 ---
 
 
-Para poder usar la versión anterior que exporta el output en formato HTML y que es mas legible, debemos hacer uso de una herramienta llamada *miniconda* que se va encargar de crear un entorno virtual donde instalaremos dicha versión sin alterar el resto del sistema.
+Para poder usar la versión anterior que exporta el output en formato HTML y que es mas legible, debemos hacer uso de una herramienta llamada **miniconda** que se va encargar de crear un entorno virtual donde instalaremos dicha versión sin alterar el resto del sistema.
 
 La versión recomendada en esta ocasión es la 3.2.2 
 
@@ -151,14 +147,14 @@ cd old_theharvester
 ```
 
 
-En este punto lo que debemos hacer es descargar el código fuente en el directorio actual, el programa que usaremos será *wget* seguido de la url:
+En este punto lo que debemos hacer es descargar el código fuente en el directorio actual, el programa que usaremos será **wget** seguido de la url:
 
 ```bash
 wget https://github.com/laramies/theHarvester/archive/refs/tags/3.2.2.zip
 ```
 
 
-Después de que este en el directorio debemos descomprimirlo con *unzip*:
+Después de que este en el directorio debemos descomprimirlo con **unzip**:
 
 ```bash
 unzip 3.2.2.zip

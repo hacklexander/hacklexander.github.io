@@ -15,10 +15,10 @@ description: Metodologías que se utilizan para realizar un auditoria de segurid
 ### Importancia de las metodologías
 
 
-Las metodologías nos facilitan la realización de un conjunto de actividades en un orden determinado y estableciendo una *prioridad* adecuada para intentar *garantizar el éxito y alcanzar un objetivo final.* 
+Las metodologías nos facilitan la realización de un conjunto de actividades en un orden determinado y estableciendo una **prioridad** adecuada para intentar **garantizar el éxito y alcanzar un objetivo final.** 
 
 
->Es muy importante tener en cuenta, que a la hora de realizar un ejercicio de hacking ético, *el input de una fase se convierte en el output de otra fase*. 
+>Es muy importante tener en cuenta, que a la hora de realizar un ejercicio de hacking ético, **el input de una fase se convierte en el output de otra fase**. 
 
 
 Con lo cual una metodología es importante, siempre y cuando nos sirva para tener en nuestra cabeza una estructura del ejercicio, una estructura de que fases vamos a seguir, que herramientas vamos a utilizar, en que orden vamos a utilizarlas, que vamos a priorizar cuando salga unos resultados determinados y todo este tipo de cosas. 
@@ -30,15 +30,15 @@ Con lo cual una metodología es importante, siempre y cuando nos sirva para tene
 ### Metodologías principales
 
 
-- OSSTMM *(Open-Source Security Testing Methodology Manual)*
-		[PDF](https://www.isecom.org/OSSTMM.3.pdf)   - *Esta es una de las mas populares.*
+- OSSTMM **(Open-Source Security Testing Methodology Manual)**
+		[PDF](https://www.isecom.org/OSSTMM.3.pdf)   - **Esta es una de las mas populares.**
 		
 - The Penetration Testing Execution Standard
 		[PDF](http://www.pentest-standard.org/index.php/main_Page)
 		
-- ISSAF *(Information Systems Security Assessment Framework)*
+- ISSAF **(Information Systems Security Assessment Framework)**
 
-- OTP *(OWASP Testing Project)*
+- OTP **(OWASP Testing Project)**
 
 
 ---
@@ -103,12 +103,12 @@ Procedimiento en el caso de que se localice una intrusión por un tercero.
 ## Ejemplos de informes de Hacking Ético y auditorías de seguridad
 
 
-Una de las preguntas más frecuentes es -> *¿Cómo es un informe real de Hacking Ético o auditoría de seguridad?*
+Una de las preguntas más frecuentes es -> **¿Cómo es un informe real de Hacking Ético o auditoría de seguridad?**
 
 Para resolver esta duda y tener ejemplos reales de cara a poder organizar de la mejor forma posible nuestros informes, veremos unos ejemplos reales.
 Antes de nada, debemos tener en cuenta que los informes de Hacking Ético dependen mucho de la organización que los realiza y del tipo de auditoría que se ha llevado a cabo. No todas la auditorías son completas ni llevan a cabo todas las fases que se enseñan en este curso, en algunas ocasiones se centran en fases o entornamos específicos dentro de la infraestructura tecnológica de una organización. Todo esto se debe concretar en la fase de definición del alcance que se mencionaba en la sección anterior.
 
-El primer recurso que me gustaría compartiros es un *repositorio donde podemos encontrar muchos reportes de auditorías reales* de diferentes empresas del sector del Hacking Ético y de la Ciberseguridad que se ha ido recopilado a lo largo del tiempo. 
+El primer recurso que me gustaría compartiros es un **repositorio donde podemos encontrar muchos reportes de auditorías reales** de diferentes empresas del sector del Hacking Ético y de la Ciberseguridad que se ha ido recopilado a lo largo del tiempo. 
 
 - [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
 

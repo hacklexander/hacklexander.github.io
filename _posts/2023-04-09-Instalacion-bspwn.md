@@ -21,7 +21,11 @@ Antes que instalemos cualquier cosa debemos tener los repositorios actualizados,
 ```bash
 sudo pacman -Syy
 ```
+
+
 ---
+
+
 # instalacion de bspwm y sxhkd
 
 Procedemos a instalar con el siguiente comando:
@@ -29,6 +33,9 @@ Procedemos a instalar con el siguiente comando:
 ```bash
 sudo pacman -S bspwm sxhkd --noconfirm
 ```
+
+----------
+
 
 una vez instalados debemos crear un archivo de configuracion en el directorio ~/.config, podemos encontrar un archivo de ejemplo en el directorio /usr/share/doc/. Lo que debemos hacer es copiar el archivo con terminacion **rc** que se encuantra en estos direcorios, lo haremos de la siguiente forma.
 
@@ -38,6 +45,10 @@ sudo cp -r /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm
 cat ~/.config/bspwm/bspwmrc
 ```
 ![gdm slect]({{site.url}}/{{site.anexos}}/instalacion-bspwm/bspwmrc.png)
+
+
+----------
+
 
 Tambien debemos hacer esto para el archivo sxhkd.
 
@@ -55,10 +66,13 @@ Lo que haremos ahora, es reiniciar el equipo y sleccionar bspwm:
 
 ![gdm slect]({{site.url}}/{{site.anexos}}/instalacion-bspwm/gdm-index.png)
 
+
 Despues de autenticarnos nos aparecera una pantalla totalmente en negro, pero no te preocupes. En este momento es donde empieza lo bueno!
 Empezaremos a instalar todas las herramientas que necesitaremos para nuestro arch y se vea genial!.
 
-para esto debemos ir a mi [***repositorio***](https://github.com/hacklexander/dotfiles-bspwm) en git hub donde estaran unos directorios y archivos de configuracion que necesitaremos para darle vida a bspwm.
+para esto debemos ir a mi [repositorio](https://github.com/hacklexander/dotfiles-bspwm) en git hub donde estaran unos directorios y archivos de configuracion que necesitaremos para darle vida a bspwm.
+
+----------
 
 # Instalacion de dependencias
 
@@ -78,7 +92,7 @@ Instalamos todos los paquetes necesarios:
 
 ```bash
 yay -Syy polybar sxhkd todotxt xclip kitty \
-		brightnessctl dunst rofi lsd bat jq \
+		brightnessctl dunst rofi fzf lsd bat jq \
 		xfce-polkit playerctl mpd nautilus \
 		ncmpcpp ranger mpc picom xfce4-power-manager-git \
 		feh ueberzug maim pamixer libwebp \
@@ -94,6 +108,10 @@ Habilitamos servicios:
 sudo systemctl enable mpd.service
 sudo systemctl start mpd.service
 ```
+
+----------
+
+
 # Instalacion Dotfiles
 
 Posteriormente a esto lo que tendremos que hacer un git clone para descargar el repositorio y tenerlo localmente, aconsejo clonarlo en la carpeta **`/tmp`**, los comandos son los siguientes:
@@ -126,7 +144,7 @@ cp -r bin/* ~/.local/bin
 Copiamos los archivos de configuracion que esta en **`home/`** 
 
 ```bash
-cp -r home/* $HOME
+cp -r home/.zshrc $HOME; cp -r home/.p10k $HOME; cp -r bg.jpg $HOME
 ```
 
 ---
@@ -137,9 +155,13 @@ cp -r home/* $HOME
 
 
 
-# ----------------------------------------------------------------------------
-Estas configuraciones estan basadas mayormente en los dotfiles de ***[gh0stzk](https://github.com/gh0stzk/dotfiles)*** y de ***[rxyhn](https://github.com/rxyhn/tokyo)***, dejo los creditos correspondientes, tambien hay configuraciones personales, puede que a todos no les guste, pero no esta de mas que las puedan probar y darme su opinion constructiva.
-# ----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+
+
+Estas configuraciones estan basadas mayormente en los dotfiles de [gh0stzk](https://github.com/gh0stzk/dotfiles) y de [rxyhn](https://github.com/rxyhn/tokyo), dejo los creditos correspondientes, tambien hay configuraciones personales, puede que a todos no les guste, pero no esta de mas que las puedan probar y darme su opinion constructiva.
+
+
+----------------------------------------------------------------------------
 
 
 
